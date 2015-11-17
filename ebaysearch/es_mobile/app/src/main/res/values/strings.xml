@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name ="facebook_app_id">814895545213866</string>
+    <string name="app_name">eBaySearch</string>
+    <string name="eBay_Search">eBay Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="Keyword_label"> Keyword</string>
+    <string name="minPrice_label"> Price From </string>
+    <string name="maxPrice_label"> Price To</string>
+    <string name="sortBy_label"> Sort By</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_label">Search</string>
+    <string name="clear_label">Clear</string>
+    <string name="invalid_keywords">Please enter a keyword</string>
+    <string name="invalid_minPrice">Price must be a positive number</string>
+    <string name="invalid_maxPrice">Price must be a positive number</string>
+    <string name="invalid_min_max">Max price cannot be less than min price</string>
+
+    <string-array name="sortBy_options_array">
+        <item>Best Match</item>
+        <item>Price: highest first</item>
+        <item>Price + Shipping: highest first</item>
+        <item>Price + Shipping: lowest first</item>
+    </string-array>
+
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+</resources>
