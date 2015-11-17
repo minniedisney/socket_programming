@@ -1,0 +1,18 @@
+a. Full name: Yaqiao Deng
+b. Student ID: 3203242414
+c. What I have done: I have completed all the three phases and printed the corresponding information. The server can communicate with two patients and doctors can communicate with patients as well.
+d. healthcenterserver.c: worked as the server, created TCP sockets to communicate with the patients, let them choose time slot and assign the doctor to each patient.
+patient1.c: worked as the client 1, create a TCP socket to communicate with health center server and a UDP socket to communicate with the assigned doctor. 
+patient2.c: same as patient1.c
+doctor1.c: worked as the server, create UDP socket to communicate with patients. 
+doctor2.c: same as doctor1.c
+e. First, make sure there is nothing in the out.txt. Second, run the healthcenterserver.c, doctor1.c and doctor2.c to wait for the connection from patients. Third, run patient1.c and choose a time slot, then run patient2.c to choose another time slot. Finally, type ctrl+c to exit.
+f. Format of all the messages exchanged: char[]
+g. none
+h. from beej guide  
+
+
+
+
+
+
